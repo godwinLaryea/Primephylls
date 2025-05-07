@@ -1,0 +1,27 @@
+.booking-header {
+  color: hsl(197, 85%, 46%);
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: min(100%, 20rem);
+}
+
+input[type=text],
+input[type=date],
+input[type=submit],
+select {
+  padding: .5rem 1rem;
+  width: 100%;
+  border-radius: 1.2rem;
+  border: 1px solid lightgray;
+}
+
+input[type=submit]{
+  background-color: hsl(197, 85%, 46%);
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
