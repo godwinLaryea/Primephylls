@@ -15,9 +15,10 @@ html{
 }
 
 body{
-  color: var(--primary-clr);
+  /* color: var(--primary-clr); */
   color: black;
   font-family: var(--primary-fnt);
+  letter-spacing: .08em;
   min-height: 100dvh;
 }
 

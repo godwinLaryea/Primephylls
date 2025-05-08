@@ -25,7 +25,7 @@
 .service-card{
   background-color: var(--secondary-clr);
   padding: 1.5rem;
-  height: 19rem;
+  min-height: 19rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,13 +38,7 @@
   background-color: #47AFDC;
   border-radius: 50%;
   width: fit-content;
-  padding: 1rem;
-}
-
-.service-image{
-  width: 1.5rem;
-  height: 100%;
-  object-fit: cover;
+  padding: .75rem;
 }
 
 .service-card a {
@@ -59,3 +53,7 @@
 .material-symbols-outlined{
   vertical-align: top;
 }
+
+/* .service-card:last-child{
+  background: url("/assets/laundry3.jpg") no-repeat center/cover;
+} */
