@@ -28,8 +28,18 @@ form.addEventListener("submit", e =>{
     errorMessage.style.color = "red"; // Changed to red for better visibility
     errorMessage.style.display = "block"; // Make sure it's visible
   }
+
 });
 
+const allInputs = [nameInput, address, phone, date];
+
+allInputs.forEach(input =>{
+  input.addEventListener("input", ()=>{
+    if(input.value !== ""){
+      errorMessage.innerHTML = "";
+    }
+  })
+})
 
   
 

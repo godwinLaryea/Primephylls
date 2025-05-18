@@ -20,6 +20,7 @@ body{
   font-family: var(--primary-fnt);
   letter-spacing: .08em;
   min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul, 

@@ -124,8 +124,8 @@ main {
 }
 
 .hero {
-  background: url("/assets/hero2.jpg") no-repeat left/cover;
-  height: 60svh;
+  background: url("/assets/hero.jpg") no-repeat left/cover;
+  min-height: 60svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +148,6 @@ main {
 
 .company-name {
   font-size: 2.7rem;
-
 }
 
 
@@ -162,6 +161,34 @@ main {
   border: none;
   border-radius: .8rem;
   cursor: pointer;
+  animation: moveIn 2s ease 1s 1;
 }
 
 .book-btn:hover {}
+
+
+@keyframes moveIn {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(.5rem);
+  }
+
+  60% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes scrolling {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}

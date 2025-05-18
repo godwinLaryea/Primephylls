@@ -1,6 +1,9 @@
 .services-section{
   margin-top: 3rem;
   padding-inline: .75rem;
+  animation: scrolling linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 35%;
 }
 
 .services-section > h2{
@@ -53,7 +56,3 @@
 .material-symbols-outlined{
   vertical-align: top;
 }
-
-/* .service-card:last-child{
-  background: url("/assets/laundry3.jpg") no-repeat center/cover;
-} */
