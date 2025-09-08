@@ -124,7 +124,7 @@ main {
 }
 
 .hero {
-  background: url("/assets/hero.jpg") no-repeat left/cover;
+  background: url("./assets/hero.jpg") no-repeat left/cover;
   min-height: 60svh;
   display: flex;
   flex-direction: column;
@@ -163,8 +163,6 @@ main {
   cursor: pointer;
   animation: moveIn 2s ease 1s 1;
 }
-
-.book-btn:hover {}
 
 
 @keyframes moveIn {
